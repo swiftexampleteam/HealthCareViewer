@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63FC04F428550634E051F0A7 /* Pods_HealthCareViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB60004E4EB935BE89FCCC11 /* Pods_HealthCareViewer.framework */; };
+		C5F1A39A2179D18800DE3CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1A3992179D18800DE3CD3 /* AppDelegate.swift */; };
+		C5F1A3A12179D18900DE3CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F1A3A02179D18900DE3CD3 /* Assets.xcassets */; };
+		C5F1A3A42179D18900DE3CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F1A3A22179D18900DE3CD3 /* LaunchScreen.storyboard */; };
+		C5F1A3B22179D72100DE3CD3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1A3B12179D72100DE3CD3 /* SignInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DBE53E9FEDA81CCCE5BC35B /* Pods-HealthCareViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCareViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthCareViewer/Pods-HealthCareViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		AB60004E4EB935BE89FCCC11 /* Pods_HealthCareViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCareViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1306AE8BE745BAEA3009F28 /* Pods-HealthCareViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCareViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthCareViewer/Pods-HealthCareViewer.release.xcconfig"; sourceTree = "<group>"; };
+		C5F1A3962179D18800DE3CD3 /* HealthCareViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCareViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F1A3992179D18800DE3CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5F1A3A02179D18900DE3CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F1A3A32179D18900DE3CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5F1A3A52179D18900DE3CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F1A3B12179D72100DE3CD3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F1A3932179D18800DE3CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FC04F428550634E051F0A7 /* Pods_HealthCareViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35ADE6CF869F3998A1ED5D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB60004E4EB935BE89FCCC11 /* Pods_HealthCareViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0187C3AA8EB21C84D1EE242 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DBE53E9FEDA81CCCE5BC35B /* Pods-HealthCareViewer.debug.xcconfig */,
+				B1306AE8BE745BAEA3009F28 /* Pods-HealthCareViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5F1A38D2179D18800DE3CD3 = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3982179D18800DE3CD3 /* HealthCareViewer */,
+				C5F1A3972179D18800DE3CD3 /* Products */,
+				A0187C3AA8EB21C84D1EE242 /* Pods */,
+				35ADE6CF869F3998A1ED5D28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F1A3972179D18800DE3CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3962179D18800DE3CD3 /* HealthCareViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F1A3982179D18800DE3CD3 /* HealthCareViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3AE2179D52000DE3CD3 /* Supports */,
+				C5F1A3B72179D7D200DE3CD3 /* Modules */,
+			);
+			path = HealthCareViewer;
+			sourceTree = "<group>";
+		};
+		C5F1A3AE2179D52000DE3CD3 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3992179D18800DE3CD3 /* AppDelegate.swift */,
+				C5F1A3A02179D18900DE3CD3 /* Assets.xcassets */,
+				C5F1A3A22179D18900DE3CD3 /* LaunchScreen.storyboard */,
+				C5F1A3A52179D18900DE3CD3 /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		C5F1A3B72179D7D200DE3CD3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3B82179D7DD00DE3CD3 /* SignIn */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C5F1A3B82179D7DD00DE3CD3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3BB2179D7F700DE3CD3 /* Model */,
+				C5F1A3BA2179D7F300DE3CD3 /* View */,
+				C5F1A3B92179D7EC00DE3CD3 /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		C5F1A3B92179D7EC00DE3CD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5F1A3B12179D72100DE3CD3 /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5F1A3BA2179D7F300DE3CD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5F1A3BB2179D7F700DE3CD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F1A3952179D18800DE3CD3 /* HealthCareViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F1A3A82179D18900DE3CD3 /* Build configuration list for PBXNativeTarget "HealthCareViewer" */;
+			buildPhases = (
+				535BB99B712570685C64EB9D /* [CP] Check Pods Manifest.lock */,
+				C5F1A3922179D18800DE3CD3 /* Sources */,
+				C5F1A3932179D18800DE3CD3 /* Frameworks */,
+				C5F1A3942179D18800DE3CD3 /* Resources */,
+				51E9DBC466AE9F33489AE48E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthCareViewer;
+			productName = HealthCareViewer;
+			productReference = C5F1A3962179D18800DE3CD3 /* HealthCareViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F1A38E2179D18800DE3CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MACOS;
+				TargetAttributes = {
+					C5F1A3952179D18800DE3CD3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = C5F1A3912179D18800DE3CD3 /* Build configuration list for PBXProject "HealthCareViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F1A38D2179D18800DE3CD3;
+			productRefGroup = C5F1A3972179D18800DE3CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F1A3952179D18800DE3CD3 /* HealthCareViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F1A3942179D18800DE3CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1A3A42179D18900DE3CD3 /* LaunchScreen.storyboard in Resources */,
+				C5F1A3A12179D18900DE3CD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E9DBC466AE9F33489AE48E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HealthCareViewer/Pods-HealthCareViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthCareViewer/Pods-HealthCareViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		535BB99B712570685C64EB9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthCareViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F1A3922179D18800DE3CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1A3B22179D72100DE3CD3 /* SignInViewController.swift in Sources */,
+				C5F1A39A2179D18800DE3CD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5F1A3A22179D18900DE3CD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F1A3A32179D18900DE3CD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F1A3A62179D18900DE3CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5F1A3A72179D18900DE3CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F1A3A92179D18900DE3CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBE53E9FEDA81CCCE5BC35B /* Pods-HealthCareViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAA47P5N57;
+				INFOPLIST_FILE = "$(SRCROOT)/HealthCareViewer/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinhtrieu.HealthCareViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5F1A3AA2179D18900DE3CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1306AE8BE745BAEA3009F28 /* Pods-HealthCareViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAA47P5N57;
+				INFOPLIST_FILE = "$(SRCROOT)/HealthCareViewer/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinhtrieu.HealthCareViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F1A3912179D18800DE3CD3 /* Build configuration list for PBXProject "HealthCareViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1A3A62179D18900DE3CD3 /* Debug */,
+				C5F1A3A72179D18900DE3CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F1A3A82179D18900DE3CD3 /* Build configuration list for PBXNativeTarget "HealthCareViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1A3A92179D18900DE3CD3 /* Debug */,
+				C5F1A3AA2179D18900DE3CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F1A38E2179D18800DE3CD3 /* Project object */;
+}
