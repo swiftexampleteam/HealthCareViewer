@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		63FC04F428550634E051F0A7 /* Pods_HealthCareViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB60004E4EB935BE89FCCC11 /* Pods_HealthCareViewer.framework */; };
+		C5174CBD217A0D650081C0C7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5174CBC217A0D650081C0C7 /* BaseViewController.swift */; };
+		C5174CC0217A0E7C0081C0C7 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5174CBF217A0E7C0081C0C7 /* BaseView.swift */; };
+		C5174CC2217A0E8D0081C0C7 /* TextFieldWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5174CC1217A0E8D0081C0C7 /* TextFieldWithTitle.swift */; };
+		C5174CC5217A13030081C0C7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5174CC4217A13030081C0C7 /* Theme.swift */; };
+		C5174CC7217A130A0081C0C7 /* Dimesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5174CC6217A130A0081C0C7 /* Dimesion.swift */; };
+		C5174CC9217A13100081C0C7 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5174CC8217A13100081C0C7 /* Resource.swift */; };
 		C5F1A39A2179D18800DE3CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1A3992179D18800DE3CD3 /* AppDelegate.swift */; };
 		C5F1A3A12179D18900DE3CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F1A3A02179D18900DE3CD3 /* Assets.xcassets */; };
 		C5F1A3A42179D18900DE3CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F1A3A22179D18900DE3CD3 /* LaunchScreen.storyboard */; };
@@ -18,6 +24,12 @@
 		0DBE53E9FEDA81CCCE5BC35B /* Pods-HealthCareViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCareViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthCareViewer/Pods-HealthCareViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		AB60004E4EB935BE89FCCC11 /* Pods_HealthCareViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCareViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1306AE8BE745BAEA3009F28 /* Pods-HealthCareViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCareViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthCareViewer/Pods-HealthCareViewer.release.xcconfig"; sourceTree = "<group>"; };
+		C5174CBC217A0D650081C0C7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C5174CBF217A0E7C0081C0C7 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C5174CC1217A0E8D0081C0C7 /* TextFieldWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithTitle.swift; sourceTree = "<group>"; };
+		C5174CC4217A13030081C0C7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C5174CC6217A130A0081C0C7 /* Dimesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimesion.swift; sourceTree = "<group>"; };
+		C5174CC8217A13100081C0C7 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		C5F1A3962179D18800DE3CD3 /* HealthCareViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCareViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F1A3992179D18800DE3CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F1A3A02179D18900DE3CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +67,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C5174CBA217A0D4E0081C0C7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C5174CC3217A12FC0081C0C7 /* Style */,
+				C5174CBB217A0D590081C0C7 /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C5174CBB217A0D590081C0C7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C5174CBC217A0D650081C0C7 /* BaseViewController.swift */,
+				C5174CBF217A0E7C0081C0C7 /* BaseView.swift */,
+				C5174CC1217A0E8D0081C0C7 /* TextFieldWithTitle.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C5174CC3217A12FC0081C0C7 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C5174CC4217A13030081C0C7 /* Theme.swift */,
+				C5174CC6217A130A0081C0C7 /* Dimesion.swift */,
+				C5174CC8217A13100081C0C7 /* Resource.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		C5F1A38D2179D18800DE3CD3 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +117,7 @@
 		C5F1A3982179D18800DE3CD3 /* HealthCareViewer */ = {
 			isa = PBXGroup;
 			children = (
+				C5174CBA217A0D4E0081C0C7 /* Common */,
 				C5F1A3AE2179D52000DE3CD3 /* Supports */,
 				C5F1A3B72179D7D200DE3CD3 /* Modules */,
 			);
@@ -253,7 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F1A3B22179D72100DE3CD3 /* SignInViewController.swift in Sources */,
+				C5174CC9217A13100081C0C7 /* Resource.swift in Sources */,
 				C5F1A39A2179D18800DE3CD3 /* AppDelegate.swift in Sources */,
+				C5174CBD217A0D650081C0C7 /* BaseViewController.swift in Sources */,
+				C5174CC5217A13030081C0C7 /* Theme.swift in Sources */,
+				C5174CC2217A0E8D0081C0C7 /* TextFieldWithTitle.swift in Sources */,
+				C5174CC0217A0E7C0081C0C7 /* BaseView.swift in Sources */,
+				C5174CC7217A130A0081C0C7 /* Dimesion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
