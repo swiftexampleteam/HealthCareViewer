@@ -59,6 +59,11 @@ class SignInViewController: BaseViewController {
     
     //MARK: View LifeCycle
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
+    }
+   
     override func initialize() {
         super.initialize()
         setupViewLogoImageView()
@@ -68,10 +73,15 @@ class SignInViewController: BaseViewController {
         setupViewSignUpButton()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.isHidden = false
+    }
+    
     //MARK: UI Action
     
     @objc func signInButtonTapped() {
-        print("Sign In Tapped")
+        navigationController?.pushViewController(SignUpViewController(), animated: true)
     }
     
     @objc func signUpButtontapped() {

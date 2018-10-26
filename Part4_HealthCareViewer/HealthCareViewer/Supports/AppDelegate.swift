@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        
-        window?.rootViewController = SignInViewController()
+        window?.rootViewController = UINavigationController(rootViewController: SignInViewController())
         
         return true
     }
